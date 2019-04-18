@@ -1,5 +1,4 @@
-public class Main implements IArithmeticsDiff{
-
+public class Main implements IArithmeticsDiff, IArithmeticDiv{
     public static void main(String[] args)  {
         System.out.println("EEIAPany Matixz Developer");
         System.out.println("EEIAPany Wivor Developer");
@@ -21,11 +20,12 @@ public class Main implements IArithmeticsDiff{
     // Addition
     @Override
     public double addition(double A, double B) {
+
         return A+B;
     }  
   
     @Override
-    public double difference(double A, double B) {
+    public double difference(double A, double B){
         return A-B;
     }
 }
