@@ -1,3 +1,3 @@
 public interface IArithmeticDiv {
-    double Division(double A, double B);
+    double division(double A, double B);
 }
