@@ -7,7 +7,7 @@ public class Main implements IArithmeticsDiff, IArithmeticsAdd, IArithmeticDiv, 
         System.out.println("Wivor Developer");
         System.out.println("Matixz Developer");
     }
-
+    //jakikolwiek gdziekolwniek
     @Override
     public double multiplication(double A, double B) {
         return A*B;
