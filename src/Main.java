@@ -22,7 +22,7 @@ public class Main implements IArithmeticsDiff, IArithmeticsAdd, IArithmeticDiv, 
     public double addition(double A, double B) {
         return A+B;
     }  
-  
+    //cokolwiek tutaj.
     @Override
     public double difference(double A, double B) {
         return A-B;
