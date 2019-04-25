@@ -17,12 +17,12 @@ public class Main implements IArithmeticsDiff, IArithmeticsAdd, IArithmeticDiv, 
     public double division(double A, double B) {
         return A/B;
     }
-
+    //cokolwiek gdzieindziej 1
     @Override
     public double addition(double A, double B) {
         return A+B;
     }  
-  
+    //cokolwiek tutaj.
     @Override
     public double difference(double A, double B) {
         return A-B;
