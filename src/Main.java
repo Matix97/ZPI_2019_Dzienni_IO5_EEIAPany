@@ -18,6 +18,7 @@ public class Main implements IArithmeticsDiff, IArithmeticsAdd, IArithmeticDiv, 
         return A/B;
     }
 
+    // Addition
     @Override
     public double addition(double A, double B) {
         return A+B;
