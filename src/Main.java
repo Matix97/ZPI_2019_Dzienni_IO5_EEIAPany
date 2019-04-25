@@ -8,6 +8,7 @@ public class Main implements IArithmeticsDiff, IArithmeticsAdd, IArithmeticDiv, 
         System.out.println("Matixz Developer");
     }
 
+    // Multiplication
     @Override
     public double multiplication(double A, double B) {
         return A*B;
