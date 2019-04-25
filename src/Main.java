@@ -8,12 +8,12 @@ public class Main implements IArithmeticsDiff, IArithmeticsAdd, IArithmeticDiv, 
         System.out.println("Matixz Developer");
     }
 
-    @Override//copment1
+    @Override
     public double multiplication(double A, double B) {
         return A*B;
     }
   
-    @Override//comment2
+    @Override
     public double division(double A, double B) {
         return A/B;
     }
@@ -22,7 +22,7 @@ public class Main implements IArithmeticsDiff, IArithmeticsAdd, IArithmeticDiv, 
     public double addition(double A, double B) {
         return A+B;
     }  
-  //comment3
+  
     @Override
     public double difference(double A, double B) {
         return A-B;
