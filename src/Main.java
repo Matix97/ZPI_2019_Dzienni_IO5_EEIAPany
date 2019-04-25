@@ -13,7 +13,7 @@ public class Main implements IArithmeticsDiff, IArithmeticsAdd, IArithmeticDiv, 
         return A*B;
     }
   
-    @Override
+    @Override//comment2
     public double division(double A, double B) {
         return A/B;
     }
