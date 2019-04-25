@@ -10,7 +10,7 @@ public class Main implements IArithmeticsDiff, IArithmeticsAdd, IArithmeticDiv, 
 
     @Override
     public double multiplication(double A, double B) {
-        return A*B;
+        return A*B;//kom Matixz1
     }
   
     @Override
