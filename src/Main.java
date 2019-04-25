@@ -15,7 +15,7 @@ public class Main implements IArithmeticsDiff, IArithmeticsAdd, IArithmeticDiv, 
   
     @Override
     public double division(double A, double B) {
-        return A/B;
+        return A/B;//kom 2 Matixz
     }
 
     @Override
