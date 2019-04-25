@@ -10,17 +10,17 @@ public class Main implements IArithmeticsDiff, IArithmeticsAdd, IArithmeticDiv, 
 
     @Override
     public double multiplication(double A, double B) {
-        return A*B;//kom Matixz1
+        return A*B;
     }
   
     @Override
     public double division(double A, double B) {
-        return A/B;//kom 2 Matixz
+        return A/B;
     }
 
     @Override
     public double addition(double A, double B) {
-        return A+B;//komentarz 3 Matixz
+        return A+B;
     }  
   
     @Override
