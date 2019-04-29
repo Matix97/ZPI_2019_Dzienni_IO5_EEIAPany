@@ -1,30 +1,23 @@
-public class Main implements IArithmeticsDiff, IArithmeticsAdd, IArithmeticDiv, IAritmeticsMult {
-  
-    public static void main(String[] args)  {
-        System.out.println("EEIAPany Matixz Developer");
-        System.out.println("Leherguargin Operations");
-        System.out.println("Matix97 Tester");
-        System.out.println("Wivor Developer");
-        System.out.println("Matixz Developer");
-    }
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
-    @Override
-    public double multiplication(double A, double B) {
-        return A*B;
-    }
-  
-    @Override
-    public double division(double A, double B) {
-        return A/B;
-    }
+public class Main {
+    public static void main(String[] args) throws IOException {
+        URL url = new URL("http://api.nbp.pl/api/exchangerates/tables/C");
+        HttpURLConnection con = (HttpURLConnection) url.openConnection();
+        con.setRequestMethod("GET");
 
-    @Override
-    public double addition(double A, double B) {
-        return A+B;
-    }  
-  
-    @Override
-    public double difference(double A, double B) {
-        return A-B;
+        BufferedReader in = new BufferedReader(
+                new InputStreamReader(con.getInputStream()));
+        String inputLine;
+        StringBuffer content = new StringBuffer();
+        while ((inputLine = in.readLine()) != null) {
+            content.append(inputLine);
+        }
+        System.out.println(content);
+        in.close();
     }
 }
