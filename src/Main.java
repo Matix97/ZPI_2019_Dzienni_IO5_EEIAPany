@@ -1,3 +1,5 @@
+import app.App;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -6,6 +8,9 @@ import java.net.URL;
 
 public class Main {
     public static void main(String[] args) throws IOException {
+        App app = new App();
+        app.run();
+
         URL url = new URL("http://api.nbp.pl/api/exchangerates/tables/C");
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("GET");
