@@ -1,7 +1,7 @@
-package app.console;
+package main.app.console;
 
-import app.command.Command;
-import app.command.CommandBuilder;
+import main.app.command.Command;
+import main.app.command.CommandBuilder;
 
 import java.util.Scanner;
 

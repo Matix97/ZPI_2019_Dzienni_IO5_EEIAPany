@@ -1,6 +1,6 @@
-package app;
+package main.app;
 
-import app.console.Console;
+import main.app.console.Console;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

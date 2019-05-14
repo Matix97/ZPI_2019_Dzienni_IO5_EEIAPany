@@ -1,4 +1,6 @@
-import app.App;
+package main;
+
+import main.app.App;
 
 import java.io.IOException;
 
