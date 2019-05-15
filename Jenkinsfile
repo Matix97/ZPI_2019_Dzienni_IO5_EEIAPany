@@ -18,7 +18,7 @@ pipeline {
         //}
         stage('Test') {
             steps {
-                sh './gradlew check'
+                sh 'mvn clean test'
             }
              post {
         always {
