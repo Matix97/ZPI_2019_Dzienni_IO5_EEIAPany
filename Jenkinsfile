@@ -18,9 +18,9 @@ pipeline {
         //}
         stage('Test') {
             steps {
-                sh 'javac src\test\app\command\Test.java'
+                sh 'javac "src\test\app\command\Test.java"'
                 
-                sh 'java src\test\app\command\Test'
+                sh 'java "src\test\app\command\Test"'
             }
              //post {
        // always {
