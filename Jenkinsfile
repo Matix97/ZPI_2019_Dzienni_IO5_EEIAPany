@@ -19,7 +19,7 @@ pipeline {
         stage('Test') {
             steps {
               //  sh 'javac "src\test\app\command\Test.java"'
-                
+                sh 'echo "Hello Tests"'
                // sh 'java "src\test\app\command\Test"'
             }
              //post {
