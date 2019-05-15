@@ -6,10 +6,22 @@ pipeline {
                 sh 'mvn --version'
             }
         }
-        stage('test'){
+        stage('testTEST'){
          steps {
              sh 'echo "Hello tests"'
          }
         }
+        stages {
+        stage('Test') {
+            steps {
+                sh './gradlew check'
+            }
+        }
+    }
+    post {
+        always {
+            junit 'build/reports/**/*.xml'
+        }
+    }
     }
 }
