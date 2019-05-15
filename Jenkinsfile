@@ -18,7 +18,9 @@ pipeline {
         //}
         stage('Test') {
             steps {
-                sh 'mvn clean test'
+                sh 'javac src\test\app\command\Test.java'
+                
+                sh 'java src\test\app\command\Test'
             }
              //post {
        // always {
