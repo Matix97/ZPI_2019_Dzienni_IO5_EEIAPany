@@ -13,7 +13,7 @@ pipeline {
         stage('test'){
             steps{
                 sh 'echo "Hello Tests"'
-                sh 'mvn clean test'
+                //sh 'mvn clean test'
             }
         }
     } 
