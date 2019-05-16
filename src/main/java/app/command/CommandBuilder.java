@@ -1,4 +1,4 @@
-package main.app.command;
+package app.command;
 
 public class CommandBuilder {
     private String date;

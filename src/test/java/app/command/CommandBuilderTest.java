@@ -1,7 +1,5 @@
 package app.command;
 
-import main.app.command.Command;
-import main.app.command.CommandBuilder;
 import org.junit.Before;
 import org.junit.Test;
 
