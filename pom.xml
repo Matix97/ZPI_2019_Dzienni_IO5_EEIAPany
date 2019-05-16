@@ -1,15 +1,11 @@
-    <properties>
-        <maven.compiler.release>11</maven.compiler.release>
-    </properties>
- 
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.3.3</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
+<project>
+   <properties>
+    <jenkins-test-harness.version>2.34</jenkins-test-harness.version>
+  </properties>   
+<dependency>
+  <groupId>org.jenkins-ci.plugins.workflow</groupId>
+  <artifactId>workflow-aggregator</artifactId>
+  <version>2.5</version> 
+  <scope>test</scope>
+</dependency>
+</project>
