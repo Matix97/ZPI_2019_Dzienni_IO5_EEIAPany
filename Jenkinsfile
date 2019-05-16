@@ -23,12 +23,12 @@ pipeline {
                 sh 'mvn test'
                // sh 'java "src\test\app\command\Test"'
             }
-             post {
-        always {
+         //    post {
+       // always {
            // archiveArtifacts artifacts: 'build/libs/**/*.jar', fingerprint: true
-            junit 'reports.xml'
-        }
-        }
+         //   junit 'reports.xml'
+        //}
+        //}
        
     } 
 
