@@ -20,6 +20,7 @@ pipeline {
             steps {
               //  sh 'javac "src\test\app\command\Test.java"'
                 sh 'echo "Hello Tests"'
+                sh 'mvn test'
                // sh 'java "src\test\app\command\Test"'
             }
              //post {
